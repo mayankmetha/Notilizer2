@@ -1,0 +1,8 @@
+<ListView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/list_notification_items"
+    style="@style/list_view"
+    android:divider="@null"
+    tools:context="com.mayank.notilizer2.ui.AppDetail">
+
+</ListView>

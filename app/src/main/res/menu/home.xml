@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Home" >
+    <item android:id="@+id/action_ignored_apps"
+        android:title="@string/action_ignored_apps"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+    <item android:id="@+id/action_exit"
+        android:title="Exit"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+</menu>

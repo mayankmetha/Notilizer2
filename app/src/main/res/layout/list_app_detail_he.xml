@@ -1,0 +1,37 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mayank.notilizer2.ui.AppDetail">
+
+    <ImageView
+        android:id="@+id/app_detail_image"
+        android:layout_width="@dimen/app_icon_width"
+        android:layout_height="@dimen/app_icon_height"
+        android:layout_margin="@dimen/app_icon_margin"
+        android:src="@drawable/ic_launcher"/>
+
+    <TextView
+        android:id="@+id/app_detail_name"
+        android:text="Application Name"
+        android:textSize="16sp"
+        android:textColor="@color/Gold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/app_detail_image"
+        android:layout_toEndOf="@id/app_detail_image"/>
+
+    <CheckBox
+        android:buttonTint="@color/Gold"
+        android:id="@+id/app_detail_ignore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_detail_ignore"
+        android:textColor="@color/Gold"
+        android:layout_marginStart="-7dp"
+        android:layout_marginTop="-3dp"
+        android:layout_below="@id/app_detail_name"
+        android:layout_alignStart="@id/app_detail_name"
+        android:onClick="onCheckboxClicked"/>
+
+</RelativeLayout>

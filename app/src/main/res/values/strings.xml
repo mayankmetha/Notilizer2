@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Notilizer</string>
+    <string name="action_ignored_apps">Ignored apps</string>
+    <string name="title_counter_suffix_single">Notification</string>
+    <string name="title_counter_suffix_plural">Notifications</string>
+    <string name="title_fragment_today">Today</string>
+    <string name="title_fragment_history">History</string>
+    <string name="title_activity_app_detail">Notilizer</string>
+    <string name="app_detail_ignore">Ignore</string>
+    <string name="NotificationAccessDialogFragment_Confirm">OK</string>
+    <string name="NotificationAccessDialogFragment_Cancel">Cancel</string>
+    <string name="NotificationAccessDialogFragment_Message">This application needs notification access in order to function correct. Currently this is not enabled. Do you want to enable this now?</string>
+    <string name="NotificationAccessDialogFragment_Title">Notification access</string>
+    <string name="title_activity_ignored__apps">Ignored apps</string>
+    <string name="ignored_apps_description">This is a list of all apps from which notifications are ignored in the statistics. Remove the app from the list to take into account the notifications from this app.</string>
+    <string name="ignored_apps_no_items">There are currently no ignored apps.</string>
+    <string name="history_empty">Your history will appear here once you have received notifications.</string>
+
+    <string-array name="navigation_drawer_list">
+        <item>Today</item>
+        <item>History</item>
+        <item>About</item>
+    </string-array>
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="history_daily">Daily</string>
+    <string name="history_weekly">Weekly</string>
+    <string name="history_monthly">Monthly</string>
+    <string name="title_activity_about">About</string>
+    <string name="about_author">Mayank Metha</string>
+    <string name="app_detail_no_message">Analysing your Notification</string>
+
+</resources>

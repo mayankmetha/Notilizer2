@@ -1,0 +1,38 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 'android-MNC'
+    buildToolsVersion "23.0.0 rc3"
+
+    defaultConfig {
+        applicationId "com.mayank.notilizer2"
+        minSdkVersion 'MNC'
+        targetSdkVersion 'MNC'
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+repositories {
+    maven { url "https://jitpack.io" }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile 'com.android.support:support-v4:22.+'
+    compile 'com.android.support:support-v13:22.+'
+    compile 'com.android.support:appcompat-v7:22.+'
+    //compile 'com.github.PhilJay:MPAndroidChart:v2.1.0'
+    compile project(':MPChartLib')
+    compile 'com.j256.ormlite:ormlite-core:4.+'
+    compile 'com.j256.ormlite:ormlite-android:4.+'
+    compile 'de.timroes.android:EnhancedListView:0.3.4'
+
+
+}
